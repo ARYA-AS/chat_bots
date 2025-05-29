@@ -4,7 +4,7 @@ This repository contains two types of chatbots written in Python. Ideal for begi
 
 ---
 
-## 🟢 1. Rule-Based Chatbot (`rule_based_chatbot.py`)
+## 🟢 1. Rule-Based Chatbot (`chatbot.py`)
 
 A simple chatbot that responds to greetings like "hello", "bye", and "good morning" using predefined logic.
 
@@ -15,7 +15,7 @@ A simple chatbot that responds to greetings like "hello", "bye", and "good morni
 
 ---
 
-## 🔵 2. AI + Rule-Based Chatbot (`ai_chatbot_dialoGPT/`)
+## 🔵 2. AI + Rule-Based Chatbot (`dialoGPT.py/`)
 
 This chatbot combines rule-based responses with **AI-generated replies** using Hugging Face’s [`microsoft/DialoGPT-small`](https://huggingface.co/microsoft/DialoGPT-small) model.
 
@@ -24,8 +24,4 @@ This chatbot combines rule-based responses with **AI-generated replies** using H
 - Uses a powerful transformer model for general conversation
 - Maintains short conversation context using chat history
 
-### How to Run:
-```bash
-cd ai_chatbot_dialoGPT
-pip install -r requirements.txt
-python chatbot.py
+
